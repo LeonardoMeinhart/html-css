@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(36, 36, 36);
+    margin: 0px;
+}
+header {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(27, 78, 20), green);
+    
+}
+nav {
+    text-align: center;
+}
+main {
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+#marcado {
+    color: green;
+    font-weight: bold;
+}
+#marcado2 {
+    color: green;
+    font-weight: bold;
+    
+}
+#marcado2:hover {
+    font-size: 1.5em;
+    text-shadow: 0px 0px 5px rgba(31, 255, 1, 0.526);
+    transition-duration: 0.5s;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header > p {
+    background-color: rgba(50, 50, 50, 0.748);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    height: 80px;
+    max-width: 500px;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr {
+    margin-top: 20px;
+}
+#pesquisa > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding: 5px;
+    transition-duration: 0.6s;
+    
+    
+}
+a > img {
+    width: 20px;
+    margin: 10px 10px -5px ;
+    padding: 2px;
+}
+#pesquisa > a:hover {
+    background-color: rgb(36, 36, 36);
+    padding: 25px 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+}
+p > img {
+    width: 30px;
+    
+    
+}
+article {
+    background-color: white;
+    margin:25px auto;
+    max-width: 900px;
+    padding: 10px;
+}
+article > h1 {
+    color: rgb(46, 133, 35);
+}
+article > p {
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+#h2 {
+    background-image: linear-gradient(to left, white, rgb(32, 89, 24));
+    color: white;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+h2 > img {
+    width: 30px;
+    margin: 10px 10px -5px ;
+    
+}
+img {
+    width: 100%;
+}
+iframe {
+    width: 100%;
+}
+#irina {
+    margin: auto;
+}
+#dandroids {
+    margin: auto;
+}
+#bugdroid {
+    margin: auto;
+    display: block;
+    max-width: 50%;
+}
+#externo {
+    text-decoration: none;
+    background-color: rgb(32, 89, 24);
+    color: white;
+    font-weight: bold;
+}
+#externo:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(49, 137, 38);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.455);
+    transition-duration: 0.6s;
+}
+#lista {
+    background-color: rgba(32, 89, 24, 0.648);
+    color: white;
+    list-style-position: inside;
+    list-style-type: '\☞\00a0\00a0';
+    columns: 2;
+    font-size: 1.2em;
+    margin: auto;
+    padding: 10px;
+    outline: solid rgba(255, 217, 0, 0.601) 2px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 10px black;
+}
+footer {
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            background-color: lightgrey;
+            display: inline-block;
+            text-align: center;
+            height: 100px;
+            width: 150px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+        div:hover {
+            background-color: brown;
+        }
+        div:active {
+            background-color: yellow;
+        }
+        div#d2 > p {
+            display: none;
+            margin-top: 20px;
+        }
+        div#d2:hover > p {
+            display: block;
+        }
+        a {
+            
+            color: brown;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited {
+            color: black;
+            
+        }
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        
+    
+    </style>
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02
+        <p>ola</p>
+    </div>
+    <div id="d3">03</div>
+
+    <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">
+        <li>Repositorio git</li>
+    </a>
+    <a href="https://youtube.com/cursoemvideo/"target="_blank" rel="external">
+        <li>Cnal do youtube</li>
+    </a>
+    <a href="https://www.cursoemvideo.com"target="_blank" rel="external">
+        <li>Site do Curso em video</li>
+    </a>
+</body>
+</html>
