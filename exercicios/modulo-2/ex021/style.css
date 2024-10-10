@@ -23,6 +23,7 @@ header > h1 {
 header>p {
     padding-bottom: 50px;
 }
+
 p a {
     text-decoration: none;
     color: white;
@@ -33,6 +34,7 @@ p a:hover {
     text-decoration: underline;
 }
 section {
+    font-size: 3.5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -48,7 +50,8 @@ section.imagem {
 }
 section.imagem > p {
     background-color: rgb(57, 57, 57);
-    width: 400px;
+    display: inline-block;
+    padding: 6px;
 }
 footer {
     background-color: rgb(25, 25, 25);
