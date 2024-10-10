@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0px;
+}
+header {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: -25px;
+    padding: 10px;
+    height: 200px;
+}
+header>p {
+    font-size: 0.5em;
+    margin-top: -30px;
+}
+p a {
+    text-decoration: none;
+    color: white;
+}
+p a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
+footer {
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+}
