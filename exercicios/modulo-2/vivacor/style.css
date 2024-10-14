@@ -4,15 +4,310 @@
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(136, 136, 136);
+    height: 300px;
+    background-image: url("imagens/wallpaper2.jpg");
+    background-blend-mode: multiply;
+    background-position: 50% 70%;
+    background-size: cover;
+    box-shadow: inset 0px -20px 20px white;
+    
+}
+#pesquisa {
+    background-color: rgba(228, 228, 228, 0.159);
+    color: rgb(13, 13, 36);
+    display: flex;
+    padding: 20px;
+    width: auto;
     height: 150px;
     
 }
-#vivacor {
-    background-color: white;
+#pesquisa a {
+    color: rgb(13, 13, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
     font-size: 2em;
-    text-align: right;
-    margin-top: -50px;
+    padding: 30px;
+    
+}
+.index:hover {
+    background-image: linear-gradient(to right, rgba(44, 44, 44, 0.718), rgba(44, 44, 44, 0.362), rgba(44, 44, 44, 0.175));
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    transition: 0.5s;
+}
+.pintura:hover {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.718), rgba(255, 0, 0, 0.603), rgba(252, 0, 0, 0.373));
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    transition: 0.5s;
+}
+.akzonobel:hover {
+    background-image: linear-gradient(to right, rgba(0, 145, 255, 0.842), rgba(0, 145, 255, 0.579), rgba(0, 145, 255, 0.355));
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    transition: 0.5s;
+}
+.internacional:hover {
+    background-image: linear-gradient(to right, rgb(8, 0, 158), rgba(8, 0, 158, 0.679), rgba(8, 0, 158, 0.373));
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+    width: 400px;
+    transition: 0.5s;
+}
+#back {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 79vw;
+}
+#vivacor {
+    
+    color: rgb(13, 13, 36);
+    font-size: 3em;
+    text-align: center;
     height: 100px;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 70vw;
+    margin-right: 20px;
+    
+}
+#underline {
+    background-image: linear-gradient(to right, red, rgba(255, 0, 0, 0.108), white);
+    width: 150px;
+    height: 10px;
+    margin: auto;
+    border-radius: 50px 0px 0px 50px;
+}
+#backdiv {
+    background-color: white;
+    height: 100px;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: -60px;
+    margin-left: 65vw;
+    margin-right: 20px;
+    border-top: 100px;
+    border-radius: 80px 0px 0px 0px;
+}
+#pinturaeletro {
+    background-color: rgb(13, 13, 36);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    height: auto;
+    margin: 8px;
+    width: auto;
+    border-radius: 80px 0px 0px 0px;
+}
+#foto1 {
+    background-image: url("imagens/wallpaper3.jpg");
+    background-repeat: no-repeat;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.666);
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 30px;
+    background-attachment: fixed;
+}
+.titulo1 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(188, 0, 0));
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 4em;
+    border-radius: 25px;
+    margin-top: -300px;
+    padding: 20px;
+
+}
+.titulo2 {
+    color: rgb(13, 13, 36);
+    font-size: 8em;
+    margin-left: 100px;
+    margin-top: -500px;
+    margin-bottom: 300px;
+}
+#foto2 {
+    background-image: url("https://ae01.alicdn.com/kf/S81bc3e8093834268b97f0b897e387c1cu.jpg?width=750&height=750&hash=1500");
+    background-size: 1000px;
+    background-position: center left;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.666);
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    background-attachment: fixed;
+}
+#footer1 {
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding-top: 20px;
+    height: 150px;
+    color: white;
+}
+#lista{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+
+}
+#lista li {
+    font-weight: bold;
+    margin: 30px;
+}
+#fototinta {
+    background-image: url("https://static.wixstatic.com/media/f61873_c203e5acffb34f32a9fccd49aae6acfd~mv2_d_3456_2136_s_2.jpg/v1/fill/w_1705,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f61873_c203e5acffb34f32a9fccd49aae6acfd~mv2_d_3456_2136_s_2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 200px auto;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.433);
+}
+#pfoto {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+#vivacor2 {
+    color: rgb(13, 13, 36);
+    font-size: 3em;
+    text-align: center;
+}
+#vivacor2 div {
+    margin: auto;
+}
+#footer2 {
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    color: white;
+}
+#footer2 a {
+    text-decoration: none;
+    color: white;
+}
+#footer2 a:hover {
+    color: rgb(13, 13, 36);
+}
+#fotopg3 {
+    margin: auto;
+    width: 575px;
+}
+#esquerda {
+    
+    color: rgb(16, 16, 51);
+    height: auto;
+    width: 600px;
+    margin: 20px auto;
+    display: inline-block;
+    text-align: center;
+
+}
+#esquerda > h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#esquerda > p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#direita {
+    background-image: linear-gradient(to top, rgba(3, 81, 73, 0.796), rgba(3, 225, 202, 0.319));
+    height: 3800px;
+    width: 600px;
+    margin: 20px auto;
+    display: inline-block;
+}
+#celular {
+    width: 500px;
+    margin: auto;
+    display: block
+}
+#sombra {
+    background-image: linear-gradient(to right, rgba(3, 225, 203, 0.100), rgba(1, 82, 74, 0.319), rgba(3, 225, 202, 0.100));
+    width: 250px;
+    height: 3px;
+    border-radius: 50px;
+    margin: auto;
+}
+#direita main h1 {
+    color: rgb(16, 16, 51);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#direita main h2 {
+    color: rgb(16, 16, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#direita main p {
+    color: rgb(16, 16, 51);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    margin-left: 50px;
+}
+.p2 {
+    color: rgb(16, 16, 51);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#qrcode img {
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    display: block;
+    border-radius: 25px;
+}
+#direita main ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(31, 31, 81);
+    font-size: 2em;
+    margin: 12px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+#direita main ul li {
+    margin-top: 20px;
+}
+#fotodireita2 img {
+    display: block;
+    margin: 200px auto;
+}
+#akzonobel {
+    background-color: white;
+    text-align: right;
+    height: 300px;
+    padding: 20px;
+}
+#backmain {
+    display: flex;
     
 }
