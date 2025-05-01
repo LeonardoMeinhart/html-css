@@ -39,7 +39,7 @@ header {
     color: white;
     border-radius: 15px;
     width: 400px;
-    transition: 0.5s;
+    
 }
 .pintura:hover {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.718), rgba(255, 0, 0, 0.603), rgba(252, 0, 0, 0.373));
@@ -48,7 +48,7 @@ header {
     color: white;
     border-radius: 15px;
     width: 400px;
-    transition: 0.5s;
+    
 }
 .akzonobel:hover {
     background-image: linear-gradient(to right, rgba(0, 145, 255, 0.842), rgba(0, 145, 255, 0.579), rgba(0, 145, 255, 0.355));
@@ -57,7 +57,7 @@ header {
     color: white;
     border-radius: 15px;
     width: 400px;
-    transition: 0.5s;
+    
 }
 .internacional:hover {
     background-image: linear-gradient(to right, rgb(8, 0, 158), rgba(8, 0, 158, 0.679), rgba(8, 0, 158, 0.373));
@@ -66,7 +66,7 @@ header {
     color: white;
     border-radius: 15px;
     width: 400px;
-    transition: 0.5s;
+    
 }
 #back {
     margin: auto;
