@@ -44,6 +44,8 @@ header {
     color: white;
     border-radius: 15px;
     width: 400px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
     
 }
 .pintura:hover {
